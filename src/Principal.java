@@ -45,6 +45,8 @@ public class Principal {
         System.out.println("**********Resultados*************");
         System.out.println("Puntos Máquina:" + puntosMaquina);
         System.out.println("Puntos Jugador:" + puntosJugador);
+        
+        //Buscar el ganador
         if (puntosJugador == puntosMaquina) {
             System.out.println("Empate");
         } else if (puntosJugador > puntosMaquina) {
